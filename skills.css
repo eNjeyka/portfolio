@@ -85,7 +85,7 @@
 }
 
 .undraw {
-    background-image: url("/src/undraw_content_team_re_6rlg.svg");
+    background-image: url("undraw_content_team_re_6rlg.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

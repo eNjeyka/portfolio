@@ -230,7 +230,7 @@
 }
 
 .fill {
-    background-image: url("/src/drag-img.jpg");
+    background-image: url("drag-img.jpg");
     background-size: 54px 54px;
     height: 54px;
     width: 54px;
