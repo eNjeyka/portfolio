@@ -83,7 +83,7 @@ body {
 }
 
 .hero {
-    background-image: url("/src/bg.jpg");
+    background-image: url("/bg.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,5 +149,6 @@ body {
 
 .home-fill-text {
     font-size: 2rem;
+    width: 90%;
     text-shadow: 0 0 5px black;
 }
