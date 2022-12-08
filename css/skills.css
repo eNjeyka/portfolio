@@ -1,0 +1,122 @@
+.container-skill-section {
+    display: flow-root;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 900px;
+}
+
+.skills {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.skill-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.square {
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: 2s ease;
+    border-radius: 3px;
+}
+
+.square-success {
+    box-shadow: 0 0 2px #61ffc5;
+    background-color: #32d296;
+}
+
+.square-default {
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #777;
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+.skill-header {
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.skill-learned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* max-width: 80px; */
+}
+
+.skill-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* max-width: 280px; */
+}
+
+.undraw {
+    background-image: url("/src/undraw_content_team_re_6rlg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width: 900px) {
+    .undraw {
+        width: 0;
+        height: 0;
+    }
+}
+
+.skill-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quote-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #32d296;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 2px white;
+    font-size: 2rem;
+    padding: 30px;
+    text-align: center;
+}
+
+/* quote */

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/css/home.css" />
+        <link rel="stylesheet" href="/css/skills.css" />
+        <link rel="stylesheet" href="/css/more.css" />
+        <script src="/js/home.js" defer></script>
+        <script src="/js/skills.js" defer></script>
+        <script src="/js/more.js" defer></script>
+        <title>Me</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <h1 class="logo"><a href="https://github.com/eNjeyka" target="_blank" class="blast">Shin</a></h1>
+                <ul>
+                    <li><a href="#home" class="blast">Home</a></li>
+                    <li><a href="#skills" class="blast">Навыки</a></li>
+                    <li><a href="#more" class="blast">Примеры</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="hero" id="home">
+            <div class="home-container">
+                <p id="auto-text" class="auto-text">Starting...</p>
+                <p class="home-fill-text">Я начинающий Front-End разработчик. У меня высшее техническое образование, однако не в сфере IT :(</p>
+                <p class="home-fill-text">Полгода опыта работы в данной отрасли.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container-skill-section">
+                <h3 class="title">Мои навыки</h3>
+                <div class="skill-section">
+                    <div class="undraw"></div>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <div class="skill-header"><i class="fa-brands fa-square-js"></i></div>
+                            <div class="skill-boxes">
+                                <div class="skill-learned" id="skill-learned-js"></div>
+                                <div class="skill-empty" id="skill-empty-js"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-header"><i class="fa-brands fa-html5"></i></div>
+                            <div class="skill-boxes">
+                                <div class="skill-learned" id="skill-learned-html"></div>
+                                <div class="skill-empty" id="skill-empty-html"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-header"><i class="fa-brands fa-css3"></i></div>
+                            <div class="skill-boxes">
+                                <div class="skill-learned" id="skill-learned-css"></div>
+                                <div class="skill-empty" id="skill-empty-css"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-header"><i class="fa-brands fa-python"></i></div>
+                            <div class="skill-boxes">
+                                <div class="skill-learned" id="skill-learned-python"></div>
+                                <div class="skill-empty" id="skill-empty-python"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-header"><i class="fa-brands fa-vuejs"></i></div>
+                            <div class="skill-boxes">
+                                <div class="skill-learned" id="skill-learned-vue"></div>
+                                <div class="skill-empty" id="skill-empty-vue"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-section">
+                    <p>У меня довольно мало опыта, но много желания изучать новое и развиваться :)</p>
+                </div>
+            </div>
+        </section>
+        <section class="more" id="more">
+            <h3 class="title">Примеры</h3>
+            <div class="examples">
+                <div class="example">
+                    <h4 class="sub-title">Волнообразная форма</h4>
+                    <div class="wave">
+                        <div class="form-control">
+                            <input type="text" required />
+                            <label for="">Email</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="example">
+                    <h4 class="sub-title">Прогресс шаги</h4>
+                    <div class="progress-steps">
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                            <div class="circle-progress active-progress">1</div>
+                            <div class="circle-progress">2</div>
+                            <div class="circle-progress">3</div>
+                            <div class="circle-progress">4</div>
+                        </div>
+                        <div class="progress-btns">
+                            <button class="progress-btn" id="prev" disabled>Prev</button>
+                            <button class="progress-btn" id="next">Next</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="example">
+                    <h4 class="sub-title">Цветовая схема</h4>
+                    <div class="color-scheme">
+                        <div class="scheme-circle scheme-circle-red"></div>
+                        <div class="scheme-circle scheme-circle-orange"></div>
+                        <div class="scheme-circle scheme-circle-green"></div>
+                        <div class="scheme-circle scheme-circle-purple"></div>
+                        <div class="scheme-circle scheme-circle-blue"></div>
+                    </div>
+                </div>
+                <div class="example">
+                    <h4 class="sub-title">Анимированная навигация</h4>
+                    <nav class="anim-nav" id="anim-nav">
+                        <ul>
+                            <li><a href="#" class="blast">Home</a></li>
+                            <li><a href="#" class="blast">Works</a></li>
+                            <li><a href="#" class="blast">About</a></li>
+                            <li><a href="#" class="blast">Contact</a></li>
+                        </ul>
+                        <button class="anim-nav-icon" id="toggle">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                        </button>
+                    </nav>
+                </div>
+                <div class="example">
+                    <h4 class="sub-title">Загрузчик</h4>
+                    <div class="kinetic-container">
+                        <div class="kinetic"></div>
+                    </div>
+                </div>
+                <div class="example">
+                    <h4 class="sub-title">Слайдеры</h4>
+                    <div class="fix-container">
+                        <div class="slider-container">
+                            <div class="toggle-slider-container">
+                                <input type="checkbox" id="good" class="toggle-slider" />
+                                <label for="good" class="label-slider">
+                                    <div class="ball-slider"><span class="span-slider">1</span></div>
+                                </label>
+                            </div>
+                            <div class="toggle-slider-containerr">
+                                <input type="checkbox" id="cheap" class="toggle-slider" />
+                                <label for="cheap" class="label-slider">
+                                    <div class="ball-slider"><span class="span-slider">2</span></div>
+                                </label>
+                            </div>
+                            <div class="toggle-slider-container">
+                                <input type="checkbox" id="fast" class="toggle-slider" />
+                                <label for="fast" class="label-slider">
+                                    <div class="ball-slider"><span class="span-slider">3</span></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fix-container">
+                        <div class="range-container">
+                            <input type="range" id="range" min="0" max="100" />
+                            <label for="range">50</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="example">
+                    <h4 class="sub-title">Drag'N'Drop</h4>
+                    <div class="dragndrop-container">
+                        <div class="empty">
+                            <div class="fill" draggable="true"></div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                        <div class="empty"></div>
+                    </div>
+                </div>
+                <div class="example">
+                    <h4 class="sub-title">Уведомления</h4>
+                    <div class="fix-container">
+                        <div class="notification-container">
+                            <div id="toasts"></div>
+                            <div class="btn-notification-container">
+                                <button class="btn-notification btn-notification-error" id="button-error">Error</button>
+                                <button class="btn-notification btn-notification-success" id="button-success">Success</button>
+                                <button class="btn-notification btn-notification-danger" id="button-danger">Danger</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
